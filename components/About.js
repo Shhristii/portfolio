@@ -1,12 +1,12 @@
 import React from "react";
-import { Palette, Code, Camera, Sparkles, Coffee } from "lucide-react";
+import { Laptop, Code, BookOpen, Sparkles, Coffee } from "lucide-react";
 
 const About = () => {
   const skills = [
-    { name: "UI/UX Design", level: 95, icon: Palette },
-    { name: "React Development", level: 88, icon: Code },
-    { name: "Photography", level: 92, icon: Camera },
-    { name: "Creative Direction", level: 90, icon: Sparkles },
+    { name: "HTML, CSS, JS", level: 90, icon: Code },
+    { name: "React Development", level: 80, icon: Laptop },
+    { name: "Responsive Design", level: 85, icon: Sparkles },
+    { name: "Version Control (Git)", level: 75, icon: BookOpen },
   ];
 
   return (
@@ -22,30 +22,29 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                Creative Soul with a Tech Heart
+                Aspiring Frontend Developer
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                I'm a passionate Sleeper who believes in the power of Sleep,
-                functional Sleeps. With over 19 years of experience in the
-                creative sleeping industry, I've had the pleasure of sleeping
-                with amazing dreams and bringing their visions to life.
+                I'm a BCA student with a deep interest in web development,
+                especially frontend technologies. I enjoy crafting clean,
+                user-friendly interfaces that bring ideas to life in the browser.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                When I'm not designing or coding, you can find me exploring new
-                coffee shops, taking photos of sunset, or planning my next
-                adventure. I believe that inspiration comes from everywhere, and
-                I love incorporating that into my work.
+                My journey started with HTML and CSS, but quickly grew into
+                JavaScript and React. I love learning new tools and constantly
+                improving my skills through projects, tutorials, and online
+                communities.
               </p>
               <div className="flex items-center space-x-4 pt-4">
                 <Coffee className="w-5 h-5 text-pink-500" />
                 <span className="text-gray-600">
-                  Fueled by coffee and creativity
+                  Fueled by curiosity and coffee
                 </span>
               </div>
             </div>
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-6">
-                Skills & Expertise
+                Skills & Learning Progress
               </h3>
               {skills.map((skill, index) => (
                 <div key={index} className="space-y-2">

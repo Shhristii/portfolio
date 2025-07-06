@@ -16,6 +16,12 @@ const Footer = () => {
             </p>
             <div className="flex justify-center space-x-6 mb-8">
               <a
+                href="https://www.facebook.com/bhattarai.aarci.9"
+                target="_blank"
+              >
+                <Facebook className="w-6 h-6 text-pink-100 hover:text-white transition-colors" />
+              </a>
+              <a
                 target="_blank"
                 href="https://www.instagram.com/shre_esty_/"
                 className="text-pink-100 hover:text-white transition-colors"
@@ -29,12 +35,7 @@ const Footer = () => {
               >
                 <Github className="w-6 h-6" />
               </a>
-              <a
-                href="https://www.facebook.com/bhattarai.aarci.9"
-                target="_blank"
-              >
-                <Facebook className="w-6 h-6 text-pink-100 hover:text-white transition-colors" />
-              </a>
+              
             </div>
             <div className="border-t border-pink-400 pt-8">
               <p className="text-pink-100 text-sm">
