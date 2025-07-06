@@ -31,7 +31,6 @@ const Hero = () => {
               className="h-32 w-32 sm:h-52 sm:w-52 object-cover rounded-full mx-auto mb-4 sm:mb-6 border-4 border-white shadow-2xl hover:scale-105 transition-transform duration-300"
               width={128}
               height={128}
-              unoptimized
               priority
             />
           </div>
